@@ -23,7 +23,7 @@ const res = await fetch("https://libretranslate.de/translate",{
             target:outLanguage,
             format:"text",
         }),
- headers:{    //if server is not showing output then we have to give header
+ headers:{    //if server is not showing output then we have to give header....additional info to server that server might need to know
 
             "Content-Type": "application/json",
         },  
